@@ -1,66 +1,68 @@
 <!DOCTYPE html>
-
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <title>Connect Four</title>
-    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <script src="app.js" charset="utf-8"></script>
   </head>
-  <body>
-    <h3>The current Player is: Player <span id="current-player">1</span></h3>
+  <body class="bg-gray-200">
+    <h3 class="mb-4">
+      The current Player is: Player
+      <span id="current-player" class="font-bold">1</span>
+    </h3>
     <h3 id="result"></h3>
 
-    <div class="grid">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div class="taken"></div>
-      <div class="taken"></div>
-      <div class="taken"></div>
-      <div class="taken"></div>
-      <div class="taken"></div>
-      <div class="taken"></div>
-      <div class="taken"></div>
+    <div class="border-2 border-black h-120 w-140 grid grid-cols-7">
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20"></div>
+      <div class="h-20 w-20 taken"></div>
+      <div class="h-20 w-20 taken"></div>
+      <div class="h-20 w-20 taken"></div>
+      <div class="h-20 w-20 taken"></div>
+      <div class="h-20 w-20 taken"></div>
+      <div class="h-20 w-20 taken"></div>
+      <div class="h-20 w-20 taken"></div>
     </div>
   </body>
 </html>
