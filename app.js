@@ -99,7 +99,9 @@ document.addEventListener("DOMContentLoaded", () => {
         square3.classList.contains("player-two") &&
         square4.classList.contains("player-two")
       ) {
+        result.innerHTML = 'Player Two Wins!'
       }
+
     }
   }
 
@@ -112,7 +114,6 @@ document.addEventListener("DOMContentLoaded", () => {
       ) {
         if (currentPlayer == 1) {
           squares[i].classList.add("taken");
-          squares[i].classList.add("border-black-8");
           squares[i].classList.add("player-one");
           squares[i].classList.add("bg-blue-500");
           currentPlayer = 2;
@@ -121,7 +122,7 @@ document.addEventListener("DOMContentLoaded", () => {
           squares[i].classList.add("taken");
           squares[i].classList.add("bg-red-500");
           squares[i].classList.add("player-two");
-          squares[i].classList.add("border-black-8");
+        
           currentPlayer = 1;
           displayCurrentPlayer.innerHTML = currentPlayer;
         }
