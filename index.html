@@ -6,9 +6,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="app.js" charset="utf-8"></script>
   </head>
-  <body class="bg-gray-200">
-    <div class="flex flex-col justify-center">
-      <h1 class="text-5xl font-bold">Connect Four</h1>
+  <body class="bg-gradient-to-r from-blue-300 to-red-300">
+    <div class="text-center">
+      <h1 class="text-5xl font-bold text-4xl font-bold underline">
+        Connect Four
+      </h1>
+
       <h3 class="mb-4">
         <br />
         <br />
@@ -17,59 +20,66 @@
       </h3>
       <h3 id="result"></h3>
       <br />
-      <div class="w-1/4 mx-auto">
-        <div class="border-2 border-black h-120 w-140 grid grid-cols-7">
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
-          <div class="h-20 w-1/7 taken bg-black"></div>
-          <div class="h-20 w-1/7 taken bg-black"></div>
-          <div class="h-20 w-1/7 taken bg-black"></div>
-          <div class="h-20 w-1/7 taken bg-black"></div>
-          <div class="h-20 w-1/7 taken bg-black"></div>
-          <div class="h-20 w-1/7 taken bg-black"></div>
-          <div class="h-20 w-1/7 taken bg-black"></div>
-        </div>
+    </div>
+    <div class="w-1/4 mx-auto">
+      <div class="border-2 border-black h-120 w-140 grid grid-cols-7">
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+        <div class="h-20 w-1/7 rounded-full border-2 border-black"></div>
+
+        <div class="h-20 w-1/7 taken bg-black"></div>
+        <div class="h-20 w-1/7 taken bg-black"></div>
+        <div class="h-20 w-1/7 taken bg-black"></div>
+        <div class="h-20 w-1/7 taken bg-black"></div>
+        <div class="h-20 w-1/7 taken bg-black"></div>
+        <div class="h-20 w-1/7 taken bg-black"></div>
+        <div class="h-20 w-1/7 taken bg-black"></div>
       </div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <div class="text-center font-bold text-xl">
+      <h2>By: Rishna Rajasekaram</h2>
     </div>
   </body>
 </html>
